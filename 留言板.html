@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>留言板</title>
+  <style type="text/css">
+    #box {
+      height: 850px;
+      width: 850px;
+      margin-right: auto;
+      margin-left: auto;
+      background-color: rgb(242, 237, 239)
+    }
+    #top {
+      height: 250px;
+      width: 850px;
+    }
+    #nav {
+      height: 50px;
+      width: 850px;
+      background-color: rgba(226, 169, 184, 0.47);
+    }
+    #contant {
+      height: 500px;
+      width: 850px;
+    }
+    #bottom {
+      text-align: center;
+      height: 40px;
+      width: 850px;
+      padding-top: 10px;
+      color: #F69;
+      background-color: rgba(226, 169, 184, 0.47);
+    }
+    a:link {
+      color: #F69;
+      text-decoration: none;
+    }
+    a:visited {
+      text-decoration: none;
+      color: #F69;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+    a:active {
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body><div id="box">
+  <div id="top"><img src="images/top.jpg" width="850" height="250" /></div>
+  <div id="nav"><table width="850" border="0">
+    <tr>
+      <td width="170" height="44" align="center"><a href="首页.html">首页</a></td>
+      <td width="170" align="center"><a href="个人简介及经历.html">个人简介及经历</a></td>
+      <td width="170" align="center"><a href="个人爱好.html">个人爱好</a></td>
+      <td width="170" align="center"><a href="个人相册.html">个人相册</a></td>
+      <td width="170" align="center"><a href="留言板.html">留言板</a></td>
+    </tr>
+  </table>
+  </div>
+  <div id="contant"><table width="850" border="0">
+    <tr>
+      <td width="315" height="438"><img src="images/留言.jpg" width="248" height="300" /></td>
+      <td width="525" align="center"><span style="font-size: 22px; font-weight: bold;">留言板</span>
+        <table width="500" border="0">
+          <tr>
+            <td width="127" height="45">姓名：</td>
+            <td colspan="2"><form id="form3" name="form3" method="post" action="">
+              <label for="textfield"></label>
+              <input type="text" name="textfield" id="textfield" />
+            </form></td>
+          </tr>
+          <tr>
+            <td height="45">性别：</td>
+            <td colspan="2"><form id="form4" name="form4" method="post" action="">
+              <input type="radio" name="radio" id="男" value="男" />
+              男
+              <input type="radio" name="radio" id="女" value="女" />
+              <label for="女"></label>
+              <label for="男"></label>
+              女
+            </form></td>
+          </tr>
+          <tr>
+            <td height="45">手机号：</td>
+            <td colspan="2"><form id="form6" name="form6" method="post" action="">
+              <label for="textfield3"></label>
+              <input type="text" name="textfield3" id="textfield3" />
+            </form></td>
+          </tr>
+          <tr>
+            <td height="45">电子邮箱：</td>
+            <td colspan="2"><form id="form7" name="form7" method="post" action="">
+              <label for="textfield4"></label>
+              <input type="text" name="textfield4" id="textfield4" />
+            </form></td>
+          </tr>
+          <tr>
+            <td height="92">留言：</td>
+            <td colspan="2"><form id="form8" name="form8" method="post" action="">
+              <label for="textarea"></label>
+              <textarea name="textarea" id="textarea" cols="45" rows="5"></textarea>
+            </form></td>
+          </tr>
+          <tr>
+            <td height="46">&nbsp;</td>
+            <td width="189"><form id="form1" name="form1" method="post" action="">
+              <input type="submit" name="提交" id="提交" value="提交" />
+            </form></td>
+            <td width="270"><form id="form2" name="form2" method="post" action="">
+              <input type="submit" name="重置" id="重置" value="重置" />
+            </form></td>
+          </tr>
+        </table></td>
+    </tr>
+  </table>
+  </div>
+  <div id="bottom">写下想说的话叭~</div>
+
+</body>
+</html>
